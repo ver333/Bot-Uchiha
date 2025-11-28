@@ -17,9 +17,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18' # atualize aqui se preferir 16 ou outro
+          node-version: '20.x' # atualize aqui se preferir 16 ou outro
 
       - name: Install dependencies
         run: npm install
