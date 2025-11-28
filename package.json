@@ -11,12 +11,15 @@
     "start": "node index.js",
     "lint": "eslint .",
     "test": "echo No tests specified && exit 0",
-    "build": "npm install"
+    "build": "tsc"
   },
   "dependencies": {
     "@deyvydofc/baileys": "1.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.0.0"
+    "@types/node": "^24.10.1",
+    "eslint": "^8.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
