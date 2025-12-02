@@ -1,5 +1,5 @@
 import axios from "axios";
-import logger from "../utils/logger.js";
+import logger from "../utils/logger";
 
 export async function sendMessage(to: string, text: string) {
   const token = process.env.WHATSAPP_TOKEN;
